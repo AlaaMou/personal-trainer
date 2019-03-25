@@ -1,0 +1,36 @@
+body{
+  background-image: url('https://images.unsplash.com/photo-1516541196182-6bdb0516ed27?ixlib=rb-1.2.1&auto=format&fit=crop&w=1534&q=80');
+}
+
+.hover-effect{
+  opacity: .8;
+  color:#591717;
+}
+
+.paragraph{
+  color :rgba(0, 0, 0, .6);
+}
+
+.background-box{
+ height: 100vh;
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+}
+
+#second-section{
+  background-image: url('https://images.unsplash.com/photo-1507398941214-572c25f4b1dc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1566&q=80')
+}
+#fourth-section{
+  background-image: url('/images/1.jpeg')
+}
+
+
+
+@media screen and (max-width:  767px) {
+ 
+  .background-box{
+    height : 60vh;
+  }
+
+}
