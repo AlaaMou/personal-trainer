@@ -6,7 +6,7 @@ $(document).ready(function(){
        })
     // animation for achivements cards
        $(".achievement").hover(function(){
-           $(this).toggleClass("hover-effect")
+           $(this).toggleClass("hover-effect");
        })
 })
 
